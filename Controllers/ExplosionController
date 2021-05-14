@@ -1,0 +1,13 @@
+namespace BasicApi.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class ExplosionController : ControllerBase
+    {
+        [HttpGet]
+        public string SayHello()
+        {
+            return "Hello, World.";
+        }
+    }
+}
